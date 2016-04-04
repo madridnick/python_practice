@@ -1,5 +1,6 @@
 ##Unix
-
+#Saving a Remote File with a Different Name with curl -o
+```curl -o [shortname] [url]```
 
 
 
