@@ -1,7 +1,9 @@
 #Unix
-*Saving a Remote File with a Different Name with curl -o*
-
+*Saving a Remote File with a Different Name with curl -o:*
 ```curl -o [shortname] [url] ```
+
+*Rename file:*
+```mv old-file-name new-file-name```
 
 
 
