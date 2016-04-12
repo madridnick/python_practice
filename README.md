@@ -9,6 +9,12 @@
 
 #Python
 
+**Get current working directory**
+```python
+import os
+os.getcwd()
+```
+
 **Open a data file**
 ```python
 import os
@@ -23,3 +29,4 @@ with open('file_name.csv', 'rb') as csvfile:
     for row in rest:
         print row
 ```
+
