@@ -45,6 +45,7 @@ with open('/Users/nickmadrid/Desktop/open_data/berkeley_salaries_2013.csv', 'rb'
 ```python
 import pandas as pd
 df = pd.read_csv('/Users/nickmadrid/Desktop/open_data/berkeley_salaries_2013.csv')
-df
+df #prints entire dataframe
+df.head() #prints first 5 rows
 ```
 
