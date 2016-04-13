@@ -57,7 +57,7 @@ import os
 
 #create new file in a specific directory, print the name and close the file
 new_file = open('/Users/name/Desktop/directory/new_file.txt', 'w')
-# Windows: new_file = open(r'C:\Users\name\directory\new_file.txt', 'w')
+#Windows: new_file = open(r'C:\Users\name\directory\new_file.txt', 'w')
 
 #verify the file was created
 print new_file
