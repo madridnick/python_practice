@@ -48,5 +48,6 @@ df = pd.read_csv('/Users/nickmadrid/Desktop/open_data/berkeley_salaries_2013.csv
 df #prints entire dataframe
 df.head() #prints first 5 rows
 df.dtypes #verify datatypes
+print df.columns #print columns
 ```
 
