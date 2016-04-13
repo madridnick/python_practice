@@ -72,3 +72,13 @@ new_file.close()
 os.remove('/Users/name/Desktop/directory/new_file.txt')
 ```
 
+**Execute shell commands in Python**
+```python
+import subprocess
+
+#list files
+subprocess.check_output('ls', shell=True)
+
+#Windows: subprocess.check_output('dir', shell=True)
+```
+
