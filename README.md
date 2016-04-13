@@ -51,3 +51,24 @@ df.dtypes #verify datatypes
 print df.columns #print columns
 ```
 
+**Create a new file, write to that file, delete that file**
+```python
+import os
+
+#create new file in a specific directory, print the name and close the file
+new_file = open('/Users/name/Desktop/directory/new_file.txt', 'w')
+# Windows: new_file = open(r'C:\Users\name\directory\new_file.txt', 'w')
+
+#verify the file was created
+print new_file
+
+#write to newly created file
+new_file.write('text to go in the new file\n')
+
+#close file
+new_file.close()
+
+#remove file
+os.remove('/Users/name/Desktop/directory/new_file.txt')
+```
+
