@@ -51,6 +51,11 @@ df.dtypes #verify datatypes
 print df.columns #print columns
 ```
 
+**New dataframe without the first three rows**
+```python
+df2 = df.ix[3:]
+```
+
 **Create a new file, write to that file, delete that file**
 ```python
 import os
