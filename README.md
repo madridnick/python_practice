@@ -51,6 +51,12 @@ df.dtypes #verify datatypes
 print df.columns #print columns
 ```
 
+**Pandas read csv file, excluding headers**
+```python
+df = pd.read_csv('/Users/nickmadrid/Desktop/open_data/berkeley_salaries_2013.csv', header=None)
+```
+
+
 **New dataframe without the first three rows**
 ```python
 df2 = df.ix[3:]
